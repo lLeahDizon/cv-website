@@ -1,0 +1,2 @@
+var myChart=echarts.init(document.getElementById("skills")),option={tooltip:{trigger:"item"},series:[{name:"技能",type:"pie",radius:"50%",data:[{value:100,name:"静态页面"},{value:70,name:"编程基础"},{value:80,name:"Vue"},{value:90,name:"React"},{value:85,name:"项目开发"},{value:70,name:"沟通能力"}],emphasis:{itemStyle:{shadowBlur:10,shadowOffsetX:0,shadowColor:"rgba(0, 0, 0, 0.5)"}}}]};myChart.setOption(option);
+//# sourceMappingURL=cv.3527dc24.js.map
